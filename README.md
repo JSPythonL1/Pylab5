@@ -446,7 +446,7 @@ class Dog:
 
   ...
 ```
-:seven: Napisz metodę która ustawi właściwość _pineapple_allowed_ na wartość odpowiednią wartośćktóra będzie podana jako parametr do tej metody
+:seven: Napisz metodę która ustawi właściwość _pineapple_allowed_ na wartość odpowiednią wartośćktóra będzie podana jako parametr do tej metody. Zadanie dotyczy fragmentu kodu z opisu właściwości. (Dla chętnych)
 
 ## :exclamation: zadania 2-7 mają zostać dodane na GitHuba :exclamation:
 ![Python](https://images81.fotosik.pl/1063/c67276993d2d0246med.jpg)
