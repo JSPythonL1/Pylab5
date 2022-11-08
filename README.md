@@ -103,7 +103,7 @@ fido = Dog("Fido", "brown")
 print(fido.color)
 fido.bark()
 ```
-Klasa dziedzicząca z innej klasy nazywana jest podklasą.
+Klasa, dziedzicząca z innej klasy nazywana jest podklasą.
 Klasa po której dziedziczą inne klasy nazywana jest superklasą.
 Jeśli klasa dziedziczy po innej z tymi samymi atrybutami lub metodami, nadpisuje je.
 ```Python
