@@ -6,7 +6,7 @@ Wcześniej zostały przeanalizowane dwa paradygmaty programowania - imperatywne 
 Innym bardzo popularnym paradygmatem jest programowanie obiektowe (OOP).
 Obiekty są tworzone za pomocą klas, które są w rzeczywistości centralnym punktem OOP.
 Klasa opisuje, czym będzie obiekt, ale jest oddzielona od samego obiektu. Innymi słowy, klasa może być opisana jako projekt, opis lub definicja obiektu.
-Możesz użyć tej samej klasy, jako plan tworzenia wielu różnych obiektów.
+Możesz użyć tej samej klasy jako plan tworzenia wielu różnych obiektów.
 
 Klasy są tworzone przy użyciu słowa kluczowego `class` i wciętych bloków, które zawierają metody klas (które są funkcjami).
 Poniżej znajduje się przykład prostej klasy i jej obiektów.
