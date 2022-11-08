@@ -41,7 +41,7 @@ W metodzie `__init__` można użyć `self.atrybut` do ustawienia początkowej wa
 ### Metody
 Klasy mogą mieć zdefiniowane inne metody w celu dodania do nich funkcjonalności.
 Należy pamiętać, że wszystkie metody muszą mieć `self` jako pierwszy parametr.
-Dostęp do tych metod można uzyskać za pomocą taki sam sposób jak do atrybutówl czy li przy pomocy składni z kropką.
+Dostęp do tych metod można uzyskać za pomocą taki sam sposób jak do atrybutów czyli przy pomocy składni z kropką.
 ```Python
 class Dog:
   def __init__(self, name, color):
