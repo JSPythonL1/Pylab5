@@ -418,11 +418,11 @@ pizza.pineapple_allowed = True
 ## Zadania do wykonania
 :one: Wypróbuj kod z _listingów_ znajdujących się w instrukcji i sprawdź ich działanie.
 
-:two: Napisz prostą klasę __Student__ któta będzie posiadać atrybuty takie jak imię i numer albumu. Utwórz 3 różne obiekty tej klasy.
+:two: Napisz prostą klasę __Student__ która będzie posiadać atrybuty takie jak imię i numer albumu. Utwórz 3 różne obiekty tej klasy.
 
-:three: Napisz klasę __Osoba__ któta będzie posiadać atrybuty takie jak imię i nazwisko. Edytuj klasę __Student__ by dziedziczyła po klasie osoba i dodatkowo posiadała atrybut numer_albumu. Utwórz 3 różne obiekty tej klasy a następnie wypisz informacje o nich.
+:three: Napisz klasę __Osoba__ która będzie posiadać atrybuty takie jak imię i nazwisko. Edytuj klasę __Student__ by dziedziczyła po klasie osoba i dodatkowo posiadała atrybut numer_albumu. Utwórz 3 różne obiekty tej klasy a następnie wypisz informacje o nich.
 
-:four: Do klasy __Student__ dopisz metodę po której wywołaniu student się przedstawni.
+:four: Do klasy __Student__ dopisz metodę po której wywołaniu student się przedstawi.
 ___Cześć nazywam się `imię` `nazwisko` i mój numer albumu to `nr_albumu`___
 
 :five: Napisz klasę __Liczba__ mającą jeden atrybut przechowujący liczbę i nadpisz wybraną z magicznych metod tak aby realizowała działanie
