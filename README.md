@@ -430,7 +430,7 @@ ___Cześć nazywam się `imię` `nazwisko` i mój numer albumu to `nr_albumu`___
     <i>x<sup>2</sup>+2xy+y</i>
 </dl>
 
-:six: Do poniższej klasy dopisz metodę statyczną która wypisze liczbę obiektów (piesków) znajdujących się w liście i wypisze imiona wszystkich obiektów. Przetestuj kod na conajmniej dwóch obiektach.
+:six: Do poniższej klasy dopisz metodę statyczną która wypisze liczbę obiektów (piesków) znajdujących się w liście i wypisze imiona wszystkich obiektów. Przetestuj kod na co najmniej dwóch obiektach.
 ```Python
 class Dog:
     count = 0  # this is a class variable
