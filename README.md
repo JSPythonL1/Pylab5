@@ -420,17 +420,17 @@ pizza.pineapple_allowed = True
 
 :two: Napisz prostą klasę __Student__ która będzie posiadać atrybuty takie jak imię i numer albumu. Utwórz 3 różne obiekty tej klasy.
 
-:three: Napisz klasę __Osoba__ która będzie posiadać atrybuty takie jak imię i nazwisko. Edytuj klasę __Student__ by dziedziczyła po klasie osoba i dodatkowo posiadała atrybut numer_albumu. Utwórz 3 różne obiekty tej klasy a następnie wypisz informacje o nich.
+:three: Napisz klasę __Osoba__ która będzie posiadać atrybuty takie jak imię i nazwisko. Edytuj klasę __Student__ by dziedziczyła po klasie osoba i dodatkowo posiadała atrybut numer_albumu. Utwórz 3 różne obiekty tej klasy, a następnie wypisz informacje o nich.
 
-:four: Do klasy __Student__ dopisz metodę po której wywołaniu student się przedstawi.
+:four: Do klasy __Student__ dopisz metodę 'przedstaw_sie()', po której wywołaniu student się przedstawi.
 ___Cześć nazywam się `imię` `nazwisko` i mój numer albumu to `nr_albumu`___
 
-:five: Napisz klasę __Liczba__ mającą jeden atrybut przechowujący liczbę i nadpisz wybraną z magicznych metod tak aby realizowała działanie
+:five: Napisz klasę __Liczba__ mającą jeden atrybut przechowujący liczbę i nadpisz magiczną metodę '__add__' tak, aby realizowała działanie
 <dl>
     <i>x<sup>2</sup>+2xy+y</i>
 </dl>
 
-:six: Do poniższej klasy dopisz metodę statyczną która wypisze liczbę obiektów (piesków) znajdujących się w liście i wypisze imiona wszystkich obiektów. Przetestuj kod na co najmniej dwóch obiektach.
+:six: Do poniższej klasy dopisz metodę statyczną, która wypisze liczbę obiektów (piesków) znajdujących się w liście i wypisze imiona wszystkich obiektów. Przetestuj kod na co najmniej dwóch obiektach.
 ```Python
 class Dog:
     count = 0  # this is a class variable
@@ -446,7 +446,7 @@ class Dog:
 
   ...
 ```
-:seven: Napisz metodę która ustawi właściwość _pineapple_allowed_ na wartość odpowiednią wartośćktóra będzie podana jako parametr do tej metody. Zadanie dotyczy fragmentu kodu z opisu właściwości. (Dla chętnych)
+:seven: Napisz metodę, która ustawi właściwość _pineapple_allowed_ na wartość 'bool', która będzie podana jako parametr do tej metody. Zadanie dotyczy fragmentu kodu z opisu właściwości. (Dla chętnych)
 
 ## :exclamation: zadania 2-7 mają zostać dodane na GitHuba :exclamation:
 ![Python](https://images81.fotosik.pl/1063/c67276993d2d0246med.jpg)

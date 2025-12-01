@@ -1,0 +1,68 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: tests\test_task2
+      id: tests-test_task2
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 1
+        setup-command: ''
+    - name: tests\test_task3
+      id: tests-test_task3
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 1
+        setup-command: ''
+    - name: tests\test_task4
+      id: tests-test_task4
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 1
+        setup-command: ''
+    - name: tests\test_task5
+      id: tests-test_task5
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 1
+        setup-command: ''
+    - name: tests\test_task6
+      id: tests-test_task6
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 1
+        setup-command: ''
+    - name: tests\test_task7
+      id: tests-test_task7
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 1
+        setup-command: ''
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        TESTS-TEST_TASK2_RESULTS: "${{steps.tests-test_task2.outputs.result}}"
+        TESTS-TEST_TASK3_RESULTS: "${{steps.tests-test_task3.outputs.result}}"
+        TESTS-TEST_TASK4_RESULTS: "${{steps.tests-test_task4.outputs.result}}"
+        TESTS-TEST_TASK5_RESULTS: "${{steps.tests-test_task5.outputs.result}}"
+        TESTS-TEST_TASK6_RESULTS: "${{steps.tests-test_task6.outputs.result}}"
+        TESTS-TEST_TASK7_RESULTS: "${{steps.tests-test_task7.outputs.result}}"
+      with:
+        runners: tests-test_task2,tests-test_task3,tests-test_task4,tests-test_task5,tests-test_task6,tests-test_task7
